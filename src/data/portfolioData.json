@@ -1,0 +1,231 @@
+{
+    "meta": {
+        "name": "Shraddha Ujainkar",
+        "role": "Software Engineer",
+        "location": "Pune, Maharashtra",
+        "experience": "2.6 Years",
+        "leetcode": "200+ Solved",
+        "focus": "Full-Stack Web Development",
+        "email": "shraddhaujainkar@gmail.com",
+        "github": "https://github.com/shraddhaujainkar",
+        "linkedin": "https://www.linkedin.com/in/shraddha-ujainkar-92653b167",
+        "initials": "SU"
+    },
+    "hero": {
+        "badge": "Open to Opportunities | Pune, MH",
+        "summary": "Full-Stack Software Engineer specializing in architecting secure, API-driven web solutions. I bridge the gap between robust backend logic and intuitive UIs, prioritizing performance and maintainable code architecture.",
+        "stats": [
+            {
+                "label": "Industry Experience",
+                "value": "2.6 Years"
+            },
+            {
+                "label": "Algorithmic Problems",
+                "value": "200+ Solved"
+            },
+            {
+                "label": "Core Expertise",
+                "value": "Scalable Apps"
+            }
+        ],
+        "portraitCard": {
+            "tag": "Technical Profile",
+            "miniGrid": [
+                {
+                    "label": "Primary Stack",
+                    "value": "Laravel + React"
+                },
+                {
+                    "label": "Efficiency",
+                    "value": "DSA Focused"
+                },
+                {
+                    "label": "Engineering",
+                    "value": "API • Auth • DB"
+                }
+            ]
+        },
+        "floatingCard": {
+            "label": "Previously at",
+            "company": "Netwin Infosolutions",
+            "period": "Jul 2023 – Dec 2025"
+        }
+    },
+    "about": {
+        "sectionLabel": "About",
+        "heading": "Engineering scalable backends and modular frontends.",
+        "cards": [
+            {
+                "type": "summary",
+                "title": "Professional Narrative",
+                "description": "I specialize in creating a seamless flow between complex server-side logic and user-centric interfaces. With a strong foundation in Data Structures and Algorithms, I approach every feature from secure authentication to database optimizationwith a focus on high performance and clean-code principles.",
+                "pills": [
+                    "React.js",
+                    "Next.js",
+                    "Node.js",
+                    "RESTful APIs",
+                    "JWT Auth",
+                    "MySQL",
+                    "Laravel",
+                    "DSA",
+                    "OOP"
+                ]
+            },
+            {
+                "type": "experience",
+                "title": "Work History",
+                "subtitle": "Software Engineer — Netwin Infosolutions",
+                "description": "Led end-to-end feature development by architecting Laravel backends and building reusable React.js components. Optimized MySQL queries to reduce latency and implemented secure JWT-based communication protocols within a fast-paced Agile environment.",
+                "metrics": [
+                    {
+                        "value": "2.6 yrs",
+                        "label": "Experience"
+                    },
+                    {
+                        "value": "Full-Stack",
+                        "label": "Engineering"
+                    }
+                ]
+            },
+            {
+                "type": "education",
+                "title": "Education",
+                "timeline": [
+                    {
+                        "degree": "BE Computer Engineering",
+                        "institution": "GCOEJ, Jalgaon",
+                        "period": "2020 - 2023",
+                        "score": "8.80 / 10 CGPA"
+                    },
+                    {
+                        "degree": "Diploma in Computer Engineering",
+                        "institution": "Sanjivani Polytechnic College",
+                        "period": "2017 - 2020",
+                        "score": "94.86%"
+                    }
+                ]
+            }
+        ]
+    },
+    "projects": {
+        "sectionLabel": "Featured Projects",
+        "heading": "Built to ship. Engineered to scale.",
+        "items": [
+            {
+                "id": "ats-checker",
+                "tech": "Next.js • Tailwind • Supabase",
+                "title": "ATS Resume Optimizer",
+                "description": "A high-performance parsing engine built to optimize resumes for Applicant Tracking Systems, featuring asynchronous bulk-scanning and real-time score calculation.",
+                "link": "https://resume-grade.vercel.app/",
+                "linkLabel": "View Live Tool",
+                "chips": [
+                    "Next.js",
+                    "Tailwind CSS",
+                    "Supabase",
+                    "Async Processing"
+                ]
+            },
+            {
+                "id": "json2ts",
+                "tech": "React • CodeMirror • Next.js • Clean Architecture",
+                "title": "JSON to TypeScript Transformer",
+                "description": "A high-performance conversion engine that transforms JSON into TypeScript Interfaces, Type Aliases, or Zod schemas. Features advanced AST-based inference and a terminal-inspired developer interface.",
+                "link": "https://json2ts.vercel.app/",
+                "linkLabel": "View Project",
+                "chips": [
+                    "React",
+                    "TypeScript",
+                    "Next.js",
+                    "AST Logic",
+                    "CodeMirror"
+                ]
+            }
+
+        ]
+    },
+    "skills": {
+        "sectionLabel": "Tech Stack",
+        "heading": "Technical expertise across the modern web ecosystem.",
+        "cards": [
+            {
+                "id": "languages-frameworks",
+                "accent": "accent-blue",
+                "title": "Development Core",
+                "description": "Building the foundation of modern web applications.",
+                "chips": [
+                    "JavaScript (ES6+)",
+                    "PHP",
+                    "C++",
+                    "React.js",
+                    "Next.js",
+                    "Laravel",
+                    "Node.js"
+                ]
+            },
+            {
+                "id": "frontend-state",
+                "accent": "accent-indigo",
+                "title": "UI & State Management",
+                "description": "Managing complex logic for intuitive user experiences.",
+                "chips": [
+                    "Redux Toolkit",
+                    "Context API",
+                    "Tailwind CSS",
+                    "Bootstrap",
+                    "Vite"
+                ]
+            },
+            {
+                "id": "backend-tools",
+                "accent": "accent-emerald",
+                "title": "Engineering Tools",
+                "description": "Data management and robust development workflows.",
+                "chips": [
+                    "MySQL",
+                    "Supabase",
+                    "RESTful APIs",
+                    "Git/GitHub",
+                    "Postman",
+                    "Jest"
+                ]
+            }
+        ],
+        "secondaryTools": {
+            "label": "Engineering Principles",
+            "accent": "accent-violet",
+            "chips": [
+                "Data Structures & Algorithms",
+                "Object-Oriented Programming",
+                "System Architecture",
+                "Agile Methodology"
+            ]
+        }
+    },
+    "contact": {
+        "sectionLabel": "Get In Touch",
+        "heading": "Let's build something exceptional together.",
+        "cards": [
+            {
+                "type": "reach-out",
+                "title": "Direct Contact",
+                "description": "I am available for full-stack roles or high-impact technical collaborations.",
+                "details": [
+                    {
+                        "label": "Email",
+                        "value": "shraddhaujainkar@gmail.com",
+                        "href": "mailto:shraddhaujainkar@gmail.com"
+                    }
+                ]
+            },
+            {
+                "type": "quick-intro",
+                "highlight": true,
+                "title": "Current Status",
+                "description": "Actively seeking engineering roles in Pune or Remote, focusing on scalable product development."
+            }
+        ]
+    },
+    "footer": {
+        "text": "© 2026 Shraddha Ujainkar • Software Engineer Portfolio"
+    }
+}
