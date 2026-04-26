@@ -116,7 +116,7 @@
                 "tech": "Next.js • Tailwind • Supabase",
                 "title": "ATS Resume Optimizer",
                 "description": "A high-performance parsing engine built to optimize resumes for Applicant Tracking Systems, featuring asynchronous bulk-scanning and real-time score calculation.",
-                "link": "https://resume-grade.vercel.app/",
+                "link": "https://resumegrade.shraddhau.in/",
                 "linkLabel": "View Live Tool",
                 "chips": [
                     "Next.js",
@@ -130,7 +130,7 @@
                 "tech": "React • CodeMirror • Next.js • Clean Architecture",
                 "title": "JSON to TypeScript Transformer",
                 "description": "A high-performance conversion engine that transforms JSON into TypeScript Interfaces, Type Aliases, or Zod schemas. Features advanced AST-based inference and a terminal-inspired developer interface.",
-                "link": "https://json2ts.vercel.app/",
+                "link": "https://json2code.shraddhau.in/",
                 "linkLabel": "View Project",
                 "chips": [
                     "React",
@@ -139,7 +139,22 @@
                     "AST Logic",
                     "CodeMirror"
                 ]
-            }
+            },
+            {
+            "id": "global-pulse",
+            "tech": "Next.js 15 • Prisma 7 • Supabase • Clean Architecture",
+            "title": "Global Pulse: Intelligence Engine",
+            "description": "A config-driven synchronization platform that distills complex API metadata into a unified command center. Features a generic Strategy Pattern for multi-source data ingestion and a dynamic Bento-grid UI.",
+            "link": "https://www.shraddhau.in/",
+            "linkLabel": "View Dashboard",
+            "chips": [
+                "Next.js",
+                "Prisma",
+                "Strategy Pattern",
+                "Tailwind CSS",
+                "Supabase"
+            ]
+        }
 
         ]
     },
