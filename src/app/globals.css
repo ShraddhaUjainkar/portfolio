@@ -902,13 +902,39 @@ main {
 }
 
 .about-grid,
-.skills-grid,
-.project-grid,
-.contact-grid {
+/* .skills-grid, */
+.project-grid {
+  /* .contact-grid { */
+  margin-top: 40px;
+  display: grid;
+  gap: 24px;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.contact-grid,
+.skills-grid {
   margin-top: 40px;
   display: grid;
   gap: 24px;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+}
+
+@media (max-width: 1024px) {
+  .about-grid,
+  .skills-grid,
+  .project-grid,
+  .contact-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .about-grid,
+  .skills-grid,
+  .project-grid,
+  .contact-grid {
+    grid-template-columns: 1fr;
+  }
 }
 
 .about-card,
