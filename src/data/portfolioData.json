@@ -119,8 +119,8 @@
         "tech": "Next.js • Node.js • Express.js • PostgreSQL • WebSockets",
         "title": "Audience Engagement & Analytics Platform",
         "description": "Developing a full-stack platform that enables organizers to create QR-based polls, surveys, and feedback forms for audience interaction. Building RESTful APIs, real-time response collection, and analytics dashboards using Node.js, Express.js, PostgreSQL, Next.js, and WebSockets.",
-        "link": "https://github.com/ShraddhaUjainkar/analytical-polling-app",
-        "linkLabel": "Coming Soon ...",
+        "link": "https://poll.shraddhau.in",
+        "linkLabel": "View Live Website",
         "chips": [
           "Node.js",
           "Express.js",
