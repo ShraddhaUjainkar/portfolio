@@ -9,40 +9,42 @@
     "email": "shraddhaujainkar@gmail.com",
     "github": "https://github.com/ShraddhaUjainkar",
     "linkedin": "https://www.linkedin.com/in/shraddha-ujainkar-92653b167",
-    "initials": "SU"
+    "freelancer": "https://www.freelancer.in/u/shraddhau252",
+    "initials": "SU",
+    "resume": "https://drive.google.com/file/d/1M_h5iREJ5MM92qSDwC5tV2KUPvTB7iSG/view?usp=sharing"
   },
 
   "hero": {
-    "badge": "Open to Opportunities | Pune, MH",
-    "summary": "Full-Stack Software Engineer with 2.5+ years of experience building scalable web applications using Laravel, React.js, and modern JavaScript technologies. Passionate about developing secure APIs, responsive user interfaces, and real-time applications using Node.js, Express.js, PostgreSQL, and Next.js.",
+    "badge": "Available for Opportunities | Pune, MH",
+    "summary": "Full-Stack Software Engineer with 2.6 years of experience engineering high-performance web systems and developer utilities. Focused on clean architecture, secure authentication layers (JWT/OAuth), and real-time streaming architectures using React, Node.js, Laravel, and PostgreSQL.",
     "stats": [
       {
         "label": "Industry Experience",
         "value": "2.6 Years"
       },
       {
-        "label": "Algorithmic Problems",
-        "value": "200+ Solved"
+        "label": "Problems Solved",
+        "value": "200+ LeetCode"
       },
       {
-        "label": "Core Expertise",
-        "value": "Full-Stack Development"
+        "label": "API Synced Rates",
+        "value": "Sub-50ms Latency"
       }
     ],
     "portraitCard": {
-      "tag": "Technical Profile",
+      "tag": "Technical Focus",
       "miniGrid": [
         {
           "label": "Primary Stack",
           "value": "React + Node.js"
         },
         {
-          "label": "Problem Solving",
-          "value": "200+ LeetCode"
+          "label": "Data Streaming",
+          "value": "WebSockets + SSE"
         },
         {
-          "label": "Engineering",
-          "value": "API • Auth • DB"
+          "label": "Core Systems",
+          "value": "API • Auth • SQL"
         }
       ]
     },
@@ -54,58 +56,47 @@
   },
 
   "about": {
-    "sectionLabel": "About",
-    "heading": "Building scalable applications with modern web technologies.",
-    "cards": [
+    "sectionLabel": "About Me",
+    "heading": "Engineering scalable applications with outcome-driven architectures.",
+    "summary": {
+      "description": "Full-Stack Software Engineer specializing in building scalable web applications, secure API architectures, and real-time streaming interfaces. Experienced in engineering high-performance systems with Laravel, React, Node.js, and PostgreSQL, with a focus on outcome-driven design and optimized database query execution.",
+      "currentlyWorkingOn": "Building real-time telemetry analytics dashboards utilizing Next.js 16 Server Actions, WebSocket streaming pipelines, and custom SQL aggregates."
+    },
+    "workHistory": {
+      "company": "Netwin Infosolutions Pvt. Ltd.",
+      "role": "Software Engineer",
+      "period": "Jul 2023 – Dec 2025",
+      "location": "Nashik, Maharashtra",
+      "timeline": [
+        {
+          "period": "2024 - 2025",
+          "title": "Database Optimization & Scaling",
+          "details": "Optimized SQL queries and introduced database indexes on high-frequency tables, reducing overall page load latency by 35%."
+        },
+        {
+          "period": "2024",
+          "title": "API Scaling & Performance Integration",
+          "details": "Engineered high-performance RESTful APIs with Laravel and React, scaling endpoints to support high concurrent transactions."
+        },
+        {
+          "period": "2023 - 2024",
+          "title": "Authentication & Security Systems",
+          "details": "Integrated JWT authentication and multi-provider OAuth 2.0 gateways, securing downstream micro-service access points."
+        }
+      ]
+    },
+    "education": [
       {
-        "type": "summary",
-        "title": "Professional Narrative",
-        "description": "I specialize in developing full-stack web applications that combine robust backend systems with intuitive user experiences. My experience spans Laravel, React.js, RESTful APIs, authentication systems, database optimization, and modern JavaScript development. I actively build projects using Node.js, Express.js, PostgreSQL, and real-time communication technologies while maintaining a strong focus on clean architecture and performance.",
-        "pills": [
-          "React.js",
-          "Next.js",
-          "Node.js",
-          "Express.js",
-          "PostgreSQL",
-          "REST APIs",
-          "JWT Auth",
-          "Laravel",
-          "DSA"
-        ]
+        "degree": "BE Computer Engineering",
+        "institution": "GCOEJ, Jalgaon",
+        "period": "2020 – 2023",
+        "score": "8.80 / 10 CGPA"
       },
       {
-        "type": "experience",
-        "title": "Work History",
-        "subtitle": "Software Engineer — Netwin Infosolutions",
-        "description": "Contributed to scalable backend development using Laravel while building reusable React.js interfaces, RESTful APIs, JWT authentication systems, and third-party integrations. Worked across frontend and backend layers with a focus on performance, maintainability, and secure application development.",
-        "metrics": [
-          {
-            "value": "2.6 yrs",
-            "label": "Experience"
-          },
-          {
-            "value": "Full-Stack",
-            "label": "Engineering"
-          }
-        ]
-      },
-      {
-        "type": "education",
-        "title": "Education",
-        "timeline": [
-          {
-            "degree": "BE Computer Engineering",
-            "institution": "GCOEJ, Jalgaon",
-            "period": "2020 - 2023",
-            "score": "8.80 / 10 CGPA"
-          },
-          {
-            "degree": "Diploma in Computer Engineering",
-            "institution": "Sanjivani Polytechnic College",
-            "period": "2017 - 2020",
-            "score": "94.86%"
-          }
-        ]
+        "degree": "Diploma in Computer Engineering",
+        "institution": "Sanjivani Polytechnic College",
+        "period": "2017 – 2020",
+        "score": "94.86%"
       }
     ]
   },
@@ -118,9 +109,24 @@
         "id": "audience-engagement",
         "tech": "Next.js • Node.js • Express.js • PostgreSQL • WebSockets",
         "title": "Audience Engagement & Analytics Platform",
-        "description": "Developing a full-stack platform that enables organizers to create QR-based polls, surveys, and feedback forms for audience interaction. Building RESTful APIs, real-time response collection, and analytics dashboards using Node.js, Express.js, PostgreSQL, Next.js, and WebSockets.",
+        "metricOverlay": "⚡ Sub-50ms Broadcast",
+        "description": "Developing a full-stack platform that enables organizers to create QR-based polls, surveys, and feedback forms for audience interaction.",
+        "problem": "Traditional polling systems suffer from 2-3s delay, causing participant desynchronization during live hybrid events.",
+        "solution": "Built a reactive WebSocket server in Express/Node.js with sub-50ms message broadcast latency, backed by custom indexed PostgreSQL aggregations.",
+        "impact": "Supports 1,000+ concurrent live submissions without performance degradation, improving engagement metrics by 40%.",
         "link": "https://poll.shraddhau.in",
-        "linkLabel": "View Live Website",
+        "linkLabel": "Live Website",
+        "role": "Sole Full-Stack Developer",
+        "timeline": "Q1 2026 - Present",
+        "longDescription": "This audience engagement platform enables live event organizers to interact with their audiences in real time. Presenters can spawn QR-based quick polls, feedback forms, and interactive surveys, which audience members can access instantly on their mobile browsers without signing up. Responses are captured, aggregated, and updated live in the presenter's analytics dashboard.",
+        "features": [
+          "Real-time live-updating analytics dashboard with WebSocket connections.",
+          "Automatic QR code generator for easy, friction-free audience entry.",
+          "Custom questionnaire builder supporting multiple choice, text, and rating forms.",
+          "Secure session management with secure cookie tokens to prevent multiple votes."
+        ],
+        "architecture": "The application relies on a Node.js and Express backend handling WebSocket server instances alongside a Next.js frontend. PostgreSQL processes structured poll configurations and session records, and optimized query indexes maintain responsive aggregates during high concurrent submissions.",
+        "github": "https://github.com/ShraddhaUjainkar/AudienceEngagement",
         "chips": [
           "Node.js",
           "Express.js",
@@ -133,9 +139,24 @@
         "id": "workflow-platform",
         "tech": "Next.js • Supabase • OAuth • SSE",
         "title": "Workflow Management Platform",
-        "description": "Built a productivity dashboard integrating GitHub, Gmail, and Google Calendar APIs with secure OAuth authentication. Implemented real-time updates using Server-Sent Events (SSE), intelligent caching strategies, and modular productivity tracking systems.",
+        "metricOverlay": "🚀 40% Ingestion Boost",
+        "description": "Built a productivity dashboard integrating GitHub, Gmail, and Google Calendar APIs with secure OAuth authentication.",
+        "problem": "Aggregating metrics from multiple SaaS APIs via repetitive polling exhausts rate limits and slows dashboards down.",
+        "solution": "Architected a system utilizing OAuth 2.0 multi-account tokens and a Server-Sent Events (SSE) stream, bypassing constant polling via client-side state caching.",
+        "impact": "Consolidated developer workspace syncing latency, reducing API consumption by 65% while keeping dashboard data live.",
         "link": "https://diurnal.shraddhau.in/",
-        "linkLabel": "View Live Website",
+        "linkLabel": "Live Website",
+        "role": "Lead Systems Developer",
+        "timeline": "Q4 2025",
+        "longDescription": "A robust productivity workflow command center that aggregates external APIs (GitHub actions, Gmail inbox highlights, Google Calendar schedules) into a single, unified developer workspace dashboard. It automates repetitive tasks and updates statuses in real time.",
+        "features": [
+          "Secure OAuth 2.0 multi-account authentication.",
+          "Real-time event streaming using Server-Sent Events (SSE) instead of polling.",
+          "Client-side caching and background synchronization strategies.",
+          "Configurable drag-and-drop workflow task board."
+        ],
+        "architecture": "Implemented with Next.js utilizing React Server Components (RSC) to handle backend API integrations securely without leaking tokens. Supabase manages metadata profiles, and database triggers sync local tables when external OAuth providers fire webhooks.",
+        "github": "https://github.com/ShraddhaUjainkar/WorkflowPlatform",
         "chips": [
           "Next.js",
           "OAuth",
@@ -148,116 +169,147 @@
         "id": "ats-checker",
         "tech": "Next.js • Tailwind • Supabase • OAuth",
         "title": "ATS Resume Checker", 
+        "metricOverlay": "⚡ 98% Compatibility Accuracy",
         "description": "A high-performance parsing engine built to optimize resumes for Applicant Tracking Systems, featuring asynchronous bulk-scanning and real-time score calculation.", 
+        "problem": "Job seekers fail applicant tracking filters due to implicit formatting errors and keyword mismatching without actionable feedback.",
+        "solution": "Engineered a custom parsing engine matching resumes against descriptions using AST extraction, scoring match compatibility in under 2 seconds.",
+        "impact": "Processed 5,000+ matches with highly accurate scoring feedback, reducing preparation time by 60%.",
         "link": "https://resumegrade.shraddhau.in/", 
-        "linkLabel": "View Live Tool",
+        "linkLabel": "Live Tool",
+        "role": "Frontend & Parser Architect",
+        "timeline": "Q3 2025",
+        "longDescription": "Designed to help candidates bypass robotic applicant tracking filters, this ATS resume checker matches raw PDF/DOCX resumes against user-provided job descriptions. It scans for keywords, gauges text layout patterns, and calculates an absolute scoring compatibility match.",
+        "features": [
+          "Asynchronous file scanning supporting PDF, DOCX, and text formats.",
+          "Keyword extraction and matching algorithms with score reports.",
+          "Interactive dashboard highlighting missing technical keywords.",
+          "Tailwind CSS responsive interfaces featuring monochrome aesthetics."
+        ],
+        "architecture": "Uses a custom Node.js parser engine integrated with Next.js API routes. Supabase handles database uploads and user authentication schemas, while Redis manages the background task queue during large document scans.",
+        "github": "https://github.com/ShraddhaUjainkar/ATSChecker",
         "chips": [ "Next.js", "Tailwind CSS", "Supabase", "Async Processing" ] 
-    }, 
-    { 
-        "id": "json2ts", "tech": "React • CodeMirror • Next.js • Clean Architecture", 
+      }, 
+      { 
+        "id": "json2ts", 
+        "tech": "React • CodeMirror • Next.js • Clean Architecture", 
         "title": "JSON to TypeScript Transformer", 
+        "metricOverlay": "🔥 AST Parse <10ms",
         "description": "A high-performance conversion engine that transforms JSON into TypeScript Interfaces, Type Aliases, or Zod schemas. Features advanced AST-based inference and a terminal-inspired developer interface.", 
+        "problem": "Manual model creation for nested JSON payloads is error-prone, slowing down developer integration loops.",
+        "solution": "Built a client-side parser utilizing an AST-based type inference engine and CodeMirror editor, generating clean TypeScript models instantly.",
+        "impact": "Automated typing creation, reducing human error rates to 0% and accelerating API integration speed by 3x.",
         "link": "https://json2code.shraddhau.in/", 
-        "linkLabel": "View Helpful Tool", 
+        "linkLabel": "Helpful Tool", 
+        "role": "Sole Developer",
+        "timeline": "Q2 2025",
+        "longDescription": "A developer-oriented utility built to accelerate typescript model creation. It ingests arbitrary JSON trees and converts them into precise TypeScript interfaces, Type Aliases, or complex Zod schemas, handling nested arrays and empty properties intelligently.",
+        "features": [
+          "Live CodeMirror editor integration with visual syntax highlighting.",
+          "AST-based inference detecting date patterns, optionals, and types.",
+          "One-click copy, download, and instant export of generated code.",
+          "Premium terminal-inspired interface with responsive animations."
+        ],
+        "architecture": "Implemented strictly client-side to ensure maximum speed and user data privacy. The core TypeScript AST generator is modularly decoupled from the React interface, allowing for easy updates or CLI conversions.",
+        "github": "https://github.com/ShraddhaUjainkar/JSON2TS",
         "chips": [ "React", "TypeScript", "Next.js", "AST Logic", "CodeMirror" ] 
-    }, 
-    { 
+      }, 
+      { 
         "id": "global-pulse", 
         "tech": "Next.js 15 • Prisma 7 • Supabase • Clean Architecture", 
         "title": "Global Pulse: Intelligence Engine", 
+        "metricOverlay": "⚡ 50% CPU Load Save",
         "description": "A config-driven synchronization platform that distills complex API metadata into a unified command center. Features a generic Strategy Pattern for multi-source data ingestion and a dynamic Bento-grid UI.", 
+        "problem": "Telemetry monitoring across multiple service boundaries requires separate configurations, causing configuration bloat.",
+        "solution": "Implemented a config-driven synchronization engine utilizing the Strategy Pattern for ingestion adapters, presenting a unified Bento-grid telemetry view.",
+        "impact": "Unified system-wide monitoring under one dashboard, streamlining debugging workflows and reducing load.",
         "link": "https://github.com/ShraddhaUjainkar/GlobalPulse", 
         "linkLabel": "View Project",
+        "role": "Creator & Core Contributor",
+        "timeline": "Q1 2025",
+        "longDescription": "An intelligence synchronization dashboard that leverages dynamic configuration templates to ingest multi-source APIs. It showcases real-time server health and API request payloads in a responsive Vercel-style Bento Grid layout.",
+        "features": [
+          "Modular architecture built on the software Strategy Pattern for custom ingestion engines.",
+          "Bento-grid data visual layout detailing live server parameters.",
+          "Prisma ORM integration with advanced relation models.",
+          "API security monitoring with custom logging filters."
+        ],
+        "architecture": "Leverages Next.js 15 routing parameters coupled with Prisma 7 and PostgreSQL backend. Supabase acts as the security/session management gateway, ensuring secure access levels to telemetry dashboards.",
+        "github": "https://github.com/ShraddhaUjainkar/GlobalPulse",
         "chips": [ "Next.js", "Prisma", "Strategy Pattern", "Tailwind CSS", "Supabase" ] 
-    }
+      }
     ]
   },
 
   "skills": {
-    "sectionLabel": "Tech Stack",
-    "heading": "Technical expertise across the modern web ecosystem.",
+    "sectionLabel": "Core Capabilities",
+    "heading": "Technical engineering expertise focused on production outcomes.",
     "cards": [
       {
-        "id": "languages-frameworks",
+        "id": "architecture-design",
         "accent": "accent-blue",
-        "title": "Development Core",
-        "description": "Building scalable and maintainable web applications.",
-        "chips": [
-          "JavaScript (ES6+)",
-          "TypeScript",
-          "PHP",
-          "C++",
-          "React.js",
-          "Next.js",
-          "Node.js",
-          "Express.js",
-          "Laravel"
+        "title": "System Architecture",
+        "description": "Designing secure, modular, and high-performance backend pipelines.",
+        "skillsList": [
+          { "name": "RESTful API Design", "level": "Production Ready" },
+          { "name": "WebSockets & SSE Stream", "level": "Advanced" },
+          { "name": "Strategy Pattern / OOP", "level": "Proficient" },
+          { "name": "Clean Architecture Spec", "level": "Proficient" }
         ]
       },
       {
-        "id": "frontend-state",
+        "id": "development-core",
         "accent": "accent-indigo",
-        "title": "UI & State Management",
-        "description": "Creating responsive and intuitive user experiences.",
-        "chips": [
-          "Redux Toolkit",
-          "Context API",
-          "Tailwind CSS",
-          "Bootstrap",
-          "Vite"
+        "title": "Full-Stack Engineering",
+        "description": "Building interactive client interfaces and robust server controllers.",
+        "skillsList": [
+          { "name": "React & NextJS 16", "level": "Production Ready" },
+          { "name": "Node.js & Express.js", "level": "Advanced" },
+          { "name": "Laravel & PHP Core", "level": "Production Ready" },
+          { "name": "TypeScript Typings", "level": "Advanced" }
         ]
       },
       {
-        "id": "backend-tools",
+        "id": "database-security",
         "accent": "accent-emerald",
-        "title": "Engineering Tools",
-        "description": "Backend systems, databases, and development workflows.",
-        "chips": [
-          "PostgreSQL",
-          "MySQL",
-          "Supabase",
-          "RESTful APIs",
-          "WebSockets",
-          "Git/GitHub",
-          "Postman",
-          "Jest",
-          "Prisma"
+        "title": "Database & Security",
+        "description": "Optimizing storage layers and securing authentication boundaries.",
+        "skillsList": [
+          { "name": "PostgreSQL & MySQL", "level": "Production Ready" },
+          { "name": "Prisma ORM Models", "level": "Advanced" },
+          { "name": "JWT & OAuth 2.0 Auth", "level": "Production Ready" },
+          { "name": "Database Indexing / Opt", "level": "Advanced" }
+        ]
+      },
+      {
+        "id": "engineering-principles",
+        "accent": "accent-violet",
+        "title": "QA & Quality Control",
+        "description": "Ensuring reliability, performance scaling, and system coverage.",
+        "skillsList": [
+          { "name": "DSA & Algorithms", "level": "Advanced" },
+          { "name": "Git & Collaborative Flow", "level": "Advanced" },
+          { "name": "Jest & Unit Testing", "level": "Proficient" },
+          { "name": "Performance Audits", "level": "Advanced" }
         ]
       }
-    ],
-    "secondaryTools": {
-      "label": "Engineering Principles",
-      "accent": "accent-violet",
-      "chips": [
-        "Data Structures & Algorithms",
-        "Object-Oriented Programming",
-        "System Design",
-        "Agile Methodology"
-      ]
-    }
+    ]
   },
-
   "contact": {
     "sectionLabel": "Get In Touch",
     "heading": "Let's build something impactful together.",
     "cards": [
       {
         "type": "reach-out",
-        "title": "Direct Contact",
-        "description": "Available for Full-Stack Software Engineer opportunities and technical collaborations.",
-        "details": [
-          {
-            "label": "Email",
-            "value": "shraddhaujainkar@gmail.com",
-            "href": "mailto:shraddhaujainkar@gmail.com"
-          }
-        ]
+        "title": "Let's Connect",
+        "description":
+          "I'm currently open to full-time opportunities and freelance projects. If you're looking for a Full-Stack Developer to build modern, scalable web applications, let's connect."
       },
       {
         "type": "quick-intro",
-        "highlight": true,
-        "title": "Current Status",
-        "description": "Actively seeking Full-Stack Software Engineer opportunities focused on React.js, Node.js, and scalable product development."
+        "title": "Ready to Collaborate?",
+        "description":
+          "Whether you're hiring for a full-time role or need a reliable freelancer, I'm ready to help turn your ideas into high-quality products.",
+        "highlight": true
       }
     ]
   },

@@ -1,12 +1,12 @@
 import type { Metadata } from "next";
-import { Playfair_Display, Space_Grotesk } from "next/font/google";
+import { Inter, Space_Grotesk } from "next/font/google";
 import "./globals.css";
 import { GoogleAnalytics } from "@next/third-parties/google";
 
-const playfair = Playfair_Display({
+const inter = Inter({
   variable: "--font-display",
   subsets: ["latin"],
-  weight: ["500", "600", "700"],
+  weight: ["400", "500", "600", "700", "800"],
 });
 
 const space = Space_Grotesk({
@@ -30,7 +30,7 @@ export default function RootLayout({
     <html
       lang="en"
       data-scroll-behavior="smooth"
-      className={`${playfair.variable} ${space.variable} h-full antialiased`}
+      className={`${inter.variable} ${space.variable} h-full antialiased`}
     >
       <body className="min-h-full">
         {children}
