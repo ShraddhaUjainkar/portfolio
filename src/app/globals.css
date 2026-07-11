@@ -41,6 +41,7 @@ html,
 body {
   min-height: 100%;
   scroll-padding-top: 80px;
+  overflow-x: hidden;
 }
 
 body {
@@ -108,12 +109,15 @@ a {
 .hamburger-btn {
   display: none; /* shown only on mobile via media query */
   position: fixed;
-  top: 12px;
+  top: 10px;
   right: 5vw;
+  width: 48px;
+  height: 48px;
+  align-items: center;
+  justify-content: center;
   background: none;
   border: none;
   cursor: pointer;
-  padding: 8px;
   border-radius: var(--radius-sm);
   -webkit-tap-highlight-color: transparent;
   z-index: 400; /* above header (z:10) and overlay (z:250) */
@@ -124,6 +128,7 @@ a {
   flex-direction: column;
   gap: 5px;
   width: 24px;
+  pointer-events: none; /* fixes mobile click bubbling */
 }
 
 .hamburger-icon span {
@@ -131,6 +136,7 @@ a {
   height: 2px;
   border-radius: 2px;
   background: var(--ink);
+  pointer-events: none; /* fixes mobile click bubbling */
   transition:
     transform 0.3s ease,
     opacity 0.3s ease,
@@ -187,6 +193,8 @@ a {
   top: 0;
   left: 0;
   right: 0;
+  max-height: 100vh;
+  overflow-y: auto;
   background: linear-gradient(160deg, #161a22 0%, #0f1115 100%);
   border-bottom: 1px solid rgba(255, 255, 255, 0.07);
   padding: 90px 8vw 40px;
@@ -277,7 +285,7 @@ a {
   /* Hide desktop nav links and CTA — hamburger handles mobile nav */
   .nav,
   .site-header > .cta {
-    display: none;
+    display: none !important;
   }
 
   .hero-name {
@@ -655,6 +663,22 @@ main {
   margin: 0 auto;
   z-index: 2;
   overflow: visible;
+}
+
+@media (max-width: 600px) {
+  .orbit-container {
+    transform: scale(0.8);
+    transform-origin: center center;
+    margin: -30px auto;
+  }
+}
+
+@media (max-width: 400px) {
+  .orbit-container {
+    transform: scale(0.68);
+    transform-origin: center center;
+    margin: -50px auto;
+  }
 }
 
 .orbit-core {
